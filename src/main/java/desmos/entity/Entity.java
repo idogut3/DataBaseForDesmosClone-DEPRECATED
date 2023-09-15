@@ -1,11 +1,18 @@
-package desmos;
+package desmos.entity;
 
 public abstract class Entity {
-    String name;
-    String password;
+    protected String name;
+    protected String password;
 
 
 
    public abstract void signOut();
 
+    public String getName() {
+        return name;
+    }
+
+    public String getPassword() {
+        return password;
+    }
 }

@@ -1,4 +1,8 @@
-package desmos;
+package desmos.program;
+
+import desmos.entity.entities.Admin;
+import desmos.entity.Entity;
+import desmos.entity.EntityType;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,7 @@
-package desmos;
+package desmos.entity.entities;
+
+import desmos.entity.Entity;
+import desmos.entity.utilities_interfaces.IAbleToDrawFunction;
 
 public class User extends Entity implements IAbleToDrawFunction {
     public static int aliveInstances = 0;

@@ -1,4 +1,4 @@
-package desmos;
+package desmos.program;
 
 public class Desmos {
     private static Desmos desmosInstance;

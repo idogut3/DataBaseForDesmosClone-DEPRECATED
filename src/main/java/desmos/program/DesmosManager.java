@@ -1,4 +1,7 @@
-package desmos;
+package desmos.program;
+
+import desmos.entity.Entity;
+import desmos.entity.EntityType;
 
 public class DesmosManager {
     DataBaseTable dataTable;

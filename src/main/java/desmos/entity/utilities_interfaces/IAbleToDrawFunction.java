@@ -1,4 +1,4 @@
-package desmos;
+package desmos.entity.utilities_interfaces;
 
 public interface IAbleToDrawFunction {
 

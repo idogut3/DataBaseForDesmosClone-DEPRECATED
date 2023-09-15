@@ -1,4 +1,4 @@
-package desmos;
+package desmos.entity;
 
 public enum EntityType {
     User,
