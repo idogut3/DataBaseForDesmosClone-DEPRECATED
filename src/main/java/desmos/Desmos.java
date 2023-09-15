@@ -19,7 +19,11 @@ public class Desmos {
         return desmosManager;
     }
 
-    public void setDesmosManager(DesmosManager desmosManager) {
+    public void changeManager(DesmosManager desmosManager) {
         this.desmosManager = desmosManager;
     }
+    public void signIn(String name, String password){
+        //TODO:
+    }
+
 }
