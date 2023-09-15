@@ -11,20 +11,20 @@ public class DesmosManager {
     }
 
     public void makeAdmin(Entity entity){
-        //TODO:
+        dataTable.makeAdmin(entity);
     }
 
     public void deleteEntity(Entity entity){
-        //Todo:
+        dataTable.deleteEntity(entity);
     }
     public void countEntitiesByType(EntityType entityType){
-        //Todo:
+        countEntitiesByType(entityType);
     }
-    public void countTotalEntities(){
-        //Todo:
+    public int countTotalEntities(){
+        return dataTable.countTotalEntities();
     }
     public void printTable(){
-        //Todo:
+        dataTable.printTable();
     }
 
 

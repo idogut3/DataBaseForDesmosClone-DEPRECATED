@@ -5,7 +5,7 @@ import desmos.entity.Entity;
 import desmos.entity.utilities_interfaces.IAbleToDrawFunction;
 
 public class Admin extends Entity implements IAbleToDrawFunction {
-    public static int aliveInstances = 0;
+    protected static int aliveInstances = 0;
 
     public Admin(String name, String password) {
         this.name = name;
@@ -27,4 +27,6 @@ public class Admin extends Entity implements IAbleToDrawFunction {
     public void signOut() {
         // Todo:
     }
+
+
 }
