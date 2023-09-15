@@ -14,7 +14,7 @@ public class Admin extends Entity implements IAbleToDrawFunction {
     }
 
     public void deleteUser(User user, DataBaseTable dataBaseTable) {
-        // Todo:
+        dataBaseTable.deleteEntity(user);
     }
 
     @Override
